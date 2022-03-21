@@ -249,8 +249,9 @@ print(a + b)
 ※ input()은 입력되는 모든 것을 문자열로 취급한다.   
 따라서 숫자를 입력받아 연산하고자 한다면 정수형 등의 숫자 자료형으로 변환하여 사용하여야 한다.
 ```python
-birthyear = input("생년을 입력하세요: ")
-age = 2021 - int(birthyear)
+#입력함수 input("메시지")
+birthyear = int(input("태어난 해를 입력하세요.: ")) # input("태어난 해를 입력하세요.: ")
+age = 2021 - birthyear # int(birthyear)
 print(age)
 ```
 
