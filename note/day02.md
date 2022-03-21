@@ -141,7 +141,11 @@ varChar = 'A' # 문자형 str타입
 varStr = 'Korea' # 문자열 Str타입
 varBool = True # 부울bool 타입
 ```
+```python
+print(type(numberInt))
+print(isinstance(numverInt,int))
 
+```
 
 
 #### 2.4.3 값을 실수로 만들기
