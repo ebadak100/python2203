@@ -5,10 +5,11 @@
 
 - #### 온라인 자료
 
-1. 주교재 : [파이썬 코딩도장](https://dojang.io/course/view.php?id=7 {:target='_blank'})
+1. 주교재 : [파이썬 코딩도장](https://dojang.io/course/view.php?id=7)
 2. [Python Documents(English)](https://docs.python.org/3/)
 3. [파이썬 설명서(한글)](https://docs.python.org/ko/3.9/contents.html)
 4. [언어 프로그램 추세](https://tiobe.com/tiobe-index/)
+5. [새 탭에서 열기](https://www.google.com/){:target="_blank"}
 
 - #### 노트
 
