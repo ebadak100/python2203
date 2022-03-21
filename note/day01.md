@@ -19,6 +19,7 @@
 #### 1.3 실행
 - 윈도우 <시작> 버튼을 누르고 모든프로그램 > Python3.9 > IDLE 메뉴를 선택한다.
 - IDLE이 시작되면 두세 줄의 파이썬 버전 정보가 출력되고 프롬프트인 >>> 옆에 커서가 깜박인다.
+- CMD 창에서 python 명령어를 통해서도 실행 가능하다.
 
 
 ```python
@@ -76,7 +77,9 @@ c.NotebookApp.notebook_dir = 'e:/python'
 ### 4. Pycharm 설치와 Git 연동
 #### 4.1 [Jetbrains.com](https://www.jetbrains.com/pycharm/) 사이트에서 community version download
 #### 4.2 설치 후, Get from VCS(Version Control System) 체크, Github 선택 후, Git 설치 과정 진행
-#### 4.3 coding용 글꼴 [d2coding](https://github.com/naver/d2codingfont/releases)  
+#### 4.3 coding용 글꼴 [d2coding](https://github.com/naver/d2codingfont/releases)
+      - C:\Windows\fonts에 복사
+      
 설치후 pycharm에 글꼴 변경!
 
 
