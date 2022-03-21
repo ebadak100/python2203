@@ -143,7 +143,7 @@ varBool = True # 부울bool 타입
 ```
 ```python
 print(type(numberInt))
-print(isinstance(numverInt,int))
+print(isinstance(numberInt,int))
 
 ```
 
