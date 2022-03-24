@@ -147,7 +147,6 @@ print(isinstance(numberInt,int))
 
 ```
 
-
 #### 2.4.3 값을 실수로 만들기
 
 float(숫자)
@@ -161,12 +160,23 @@ float('문자열')
 >>> float('5.3')
 5.3
 ```
+```python
+a=10
+print(a)
 
+a =float(10)
+print(a)
+
+```
 
 
 ## 3. 파이썬의 기본 입출력 함수
 ### 3.1 변수
-변수Variable : 데이터를 저장할 수 있는 메모리 공간의 이름. 프로그래머가 쉽게 데이터에 액세스 할 수 있도록 특정 메모리에 이름을 붙인 것이며, 내용을 다른 값으로 갱신할 수 있다.  
+변수Variable : 데이터를 저장할 수 있는 장소라는 뜻이며, 그 장소를 메모리memory라고 한다.  
+변수에 값이 저장되는 공산을 메모리라고 하며, 이 변수의 저장 위치를 메모리 주소라고 한다.  
+프로그래머가 쉽게 데이터에 액세스 할 수 있도록 특정 메모리에 이름을 붙인 것이며, 내용을 다른 값으로 갱신할 수 있다.  
+  
+  
 ```python
 x = 10    # x:변수이름, =: 할당, 10: 값.   값 10을 x라는 변수에 할당함.
 x
@@ -197,8 +207,8 @@ x
 ```python
 a=7
 b=5
-print(a+b)
-print('a+b
+print(a+b) # 변수로 인식
+print('a+b') # 하나의 값으로 인식
 ```
 
 
@@ -219,14 +229,6 @@ print('a+b
 number = input()
 print(number)
 ```  
-```python
->>> a = 10
->>> b = 20
->>> c = a + b
->>> c
-30
-```
-
   
 - input 함수의 결과를 변수에 할당하기
 
@@ -238,6 +240,12 @@ Hello, world! (입력)
 'Hello, world!'
 ```
 
+```python
+print("당신의 이름을 입력하세요: ")
+name = input()
+print("Hi",name,"How are you today?")
+
+```
 
 ```python
 number = input("숫자를 입력하세요: ")
@@ -252,7 +260,6 @@ b = input('두 번째 숫자를 입력하세요: ')
 print(a + b)
 ```
 
-
 ※ input()은 입력되는 모든 것을 문자열로 취급한다.   
 따라서 숫자를 입력받아 연산하고자 한다면 정수형 등의 숫자 자료형으로 변환하여 사용하여야 한다.
 ```python
@@ -261,7 +268,17 @@ birthyear = int(input("태어난 해를 입력하세요.: ")) # input("태어난
 age = 2021 - birthyear # int(birthyear)
 print(age)
 ```
+```python
+# 화씨온도 변환기
+print("본 프로그램은 섭씨온도를 화씨온도로 변환하는 프로그램입니다.")
+print("변환하고 싶은 섭씨온도를 입력하세요")
 
+celsius = input()
+fahrenheit = (float(celsius) * 1.8 ) +32
+
+print("섭씨온도:",celsius)
+print("화씨온도:",fahrenheit)
+```
 
 
 #### 3.2.1 입력값을 변수 두 개에 저장하기
