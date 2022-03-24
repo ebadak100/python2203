@@ -9,10 +9,12 @@
 
 ## 1. if 조건 제어문
 ### if문
-가장 단순한 형태의 if문은 참일 때는 실행하고, 거짓일 때는 아무것도 실행하지 않는다.  
-if 조건식:
-    코드
-    
+가장 단순한 형태의 if문은 참일 때는 실행하고, 거짓일 때는 아무것도 실행하지 않는다.    
+```phthon
+if 조건식:      # if를 쓰고 조건식 삽입후 ':' 입력  
+    명령        # 들여쓰기 후, 명령입력   
+```
+
 ```python
 x = 10
 if x==10:
@@ -39,6 +41,22 @@ if_______________________
 ```
 
 x != 20
+
+### 연산자  
+비교연산자  
+x < y   ~보다 작음
+x > y   ~보다 큼  
+x == y  ~와 같음  
+x != y  같음  
+x >= y  크거나 같음  
+x <= y  작거나 같음  
+
+논리연산자  
+and     두 값이 모두 참일 경우 True, 아니면 False  
+or      두 값중 하나만 참일 경우 True, 모두 거짓일 경우 False  
+not     값을 역으로 반환하여 판단  
+
+
 
 ## 13.6 퀴즈~
 표준 입력으로 가격(정수)과 쿠폰이름이 각 줄에 입력된다.  
@@ -119,17 +137,6 @@ elif x == 20:
     
 ```
 
-```python
-x = 30
- 
-if x == 10:             # x가 10일 때
-    print('10입니다.')
-elif x == 20:           # x가 20일 때
-    print('20입니다.')
-else:                   # 앞의 조건식에 모두 만족하지 않을 때
-    print('10도 20도 아닙니다.')
-```
-
 음료수 자판 만들기
 ```python
 button = int(input())
@@ -143,7 +150,22 @@ elif button == 3:
 else:
     print('제공하지 않는 메뉴')
 ```
+```python
+print("당신의 태어난 연도를 입력하세요.")
+birth_year = input()
+age = 2022-int(birth_year)+1
 
+if age <=26 and age >= 20:
+    print('대학생')
+elif age <20 and age >=17:
+    print('고등학생')
+elif age <17 and age >=14:
+    print('중학생')
+elif age <14 and age >=8:
+    print('초등학생')
+else:
+    print('학생이 아닙니다.')
+```
 
 ### 중첩 if문  
 조건을 검사하는 과정이 2번 이상일 때.     
@@ -347,9 +369,17 @@ while True:
     반복할문장
 ```
 
-
+### for문과 while문 상호 변환 가능
 ```python
-
+# for문
+for i in range(0,5):    # 반복 실행 횟수를 명확히 알때
+    print(i)
+    
+# while
+i = 0                   # 반복 실행 횟수가 명확하지 않을때
+while i < 5:
+    print(i)
+    i = i + 1
 ```
 
 ### break문 
