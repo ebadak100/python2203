@@ -333,7 +333,7 @@ def calc():
     b = 5                 # 지역변수 a, b를 만들고 3, 5를 저장
     def mul_add(x):
         return a * x + b # 함수 바깥쪽에 있는 지역 변수 a, b를 사용하여 계산
-    return mul_add       # mul_add함수를 반환 
+    return mul_add       # mul_add함수를 반환 (이름만 작성한다.()없음)
 c = calc()               # calc를 호출한뒤 반환값을 C에 저장한다. calc에서 mul_add를 반환했을으므로 c에는 함수 mul_add가 들어간다.
 print(c(1), c(2), c(3),c(4),c(5)) # 8 11 14 17 20
 ```
