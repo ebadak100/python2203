@@ -157,6 +157,23 @@ print(varSum(1))
 print(varSum(1,2))
 print(varSum(1,2,3))
 ```
+
+### 키워드 매개변수의 사용  
+- 입력된 값은 딕셔너리 자료형(키-값) 으로 사용할 수 있다.  
+
+```python
+def keyword_test(**keywords):
+    print(keywords)
+    print("첫번째 키워드값 {first}".format(**keywords))
+    print("두번째 키워드값 {second}".format(**keywords))
+    print("세번째 키워드값 {third}".format(**keywords))
+    
+keyword_test(first=3, second=4, third=5)
+
+```
+
+
+
 ### 여러 개의 결과값 반환
 파이썬에서는 두 개 이상의 결과값을 반환할 수 있다.
 ```python
