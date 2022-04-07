@@ -79,6 +79,8 @@ c.NotebookApp.notebook_dir = 'e:/python'
 #### 4.2 설치 후, Get from VCS(Version Control System) 체크, Github 선택 후, Git 설치 과정 진행
 #### 4.3 coding용 글꼴 [d2coding](https://github.com/naver/d2codingfont/releases)
       - C:\Windows\fonts에 복사
+##### pycharm 계정 로그인정보  
+- Settings - Version Control - Github
       
 설치후 pycharm에 글꼴 변경!
 
