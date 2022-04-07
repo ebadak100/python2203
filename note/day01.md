@@ -79,6 +79,9 @@ c.NotebookApp.notebook_dir = 'e:/python'
 #### 4.2 설치 후, Get from VCS(Version Control System) 체크, Github 선택 후, Git 설치 과정 진행
 #### 4.3 coding용 글꼴 [d2coding](https://github.com/naver/d2codingfont/releases)
       - C:\Windows\fonts에 복사
+      - Appearance & Behavior - Apperance - Use Custom font 
+      - Editor - font
+      [ 주피터 노트북 폰트 변경](https://kkaeruk.tistory.com/8)
 ##### pycharm 계정 로그인정보  
 - Settings - Version Control - Github
       
