@@ -81,7 +81,7 @@ c.NotebookApp.notebook_dir = 'e:/python'
       - C:\Windows\fonts에 복사
       - Appearance & Behavior - Apperance - Use Custom font 
       - Editor - font  
-[주피터 노트북 폰트 변경](https://kkaeruk.tistory.com/8)
+[주피터 노트북 폰트 변경](https://blog.naver.com/duqrlwjddns1/221612863295)
 ##### pycharm 계정 로그인정보  
 - Settings - Version Control - Github
       
