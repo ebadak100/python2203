@@ -90,7 +90,8 @@ c.NotebookApp.notebook_dir = 'e:/python'
 
 #### [참고자료]
 - [Pycharm 프로젝트와 Github 저장소 연동하기](https://ellun.tistory.com/280)  
-- [Git + pycharm 연동 토큰생성](https://blog.naver.com/milktea0614/222653009315)
+- [Git + pycharm 연동 토큰생성](https://blog.naver.com/milktea0614/222653009315)  
+- [403 error](https://beagle-dev.tistory.com/244)
 
 
 ```python
