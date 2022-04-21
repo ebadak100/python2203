@@ -6,9 +6,9 @@ rn = ["0", "0", "0"]
 rn[0] = str(random.randrange(1, 9, 1))
 rn[1] = rn[0]
 rn[2] = rn[0]
-while (rn[0] == rn[1]):
+while (): # 조건을 작성하세요
     rn[1] = str(random.randrange(1, 9, 1))
-while (rn[0] == rn[2] or rn[1] == rn[2]):
+while (): # 조건을 작성하세요
     rn[2] = str(random.randrange(1, 9, 1))
 
 # print(rn)
@@ -28,9 +28,9 @@ while (s_cnt < 3):
 
     for i in range(0, 3):
         for j in range(0, 3):
-            if (num[i] == str(rn[j]) and i == j):
+            if ():  # 조건을 작성하세요
                 s_cnt += 1
-            elif (num[i] == str(rn[j]) and i != j):
+            elif (): # 조건을 작성하세요
                 b_cnt += 1
     print("결과 : [", s_cnt, "] Strike [", b_cnt, "] Ball")
     t_cnt += 1
