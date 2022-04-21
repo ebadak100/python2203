@@ -297,7 +297,7 @@ class Person:
  
 class Student(Person):
     def greeting(self):  # Person 클래스의 greeting 메서드를 무시하고 Student 클래스에 새로운 greeting 메서드를 만듬
-        print('안녕하세요. 저는 파이썬 코딩 도장 학생입니다.')
+        print('안녕하세요. 저는 한국IT학원 학생입니다.')
  
 james = Student()
 james.greeting()
