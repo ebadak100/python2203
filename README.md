@@ -20,5 +20,5 @@
 6. day06- [제어문](./note/day03.md)
 7. day07- [함수 ](./note/day06.md)
 8. day08- [객체지향프로그래밍 ](./note/day07.md)
-9. day09- [게임만들기](./number up&down 게임.py)
-10. day10 - [게임만들기]
+9. day09- [게임만들기](./updowngame.md)
+10. day10 - [게임만들기](./baseball.md)
