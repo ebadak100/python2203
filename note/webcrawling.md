@@ -147,6 +147,7 @@ for tr in table.find_all('tr'):      # 모든 <tr> 태그를 찾아서 반복(�
 
 
 ```python
+# 데이터를  csv파일에 저장하기
 with open('weather.csv', 'w') as file:    # weather.csv 파일을 쓰기 모드로 열기
     file.write('point,temperature,humidity\n')                  # 컬럼 이름 추가
     for i in data:                                              # data를 반복하면서
